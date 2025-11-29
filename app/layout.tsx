@@ -23,9 +23,13 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body className={`${albertSans.variable} antialiased p-4`}>
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
-          <div className="flex flex-row gap-4">
-            <Sidebar />
-            {children}
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-4">
+            <div className="lg:col-span-2">
+              <Sidebar />
+            </div>
+            <div className="col-span-1 lg:col-span-10">
+              {children}
+            </div>
           </div>
         </ThemeProvider>
       </body>

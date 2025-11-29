@@ -6,7 +6,7 @@ export function WebLink({ href, title, className }: { href: string; title: strin
     <Card className={className}>
       <CardContent>
         <div className="flex items-center gap-2 justify-between">
-          <a href={href} target="_blank" rel="noopener noreferrer">
+          <a href={href} target="_blank" rel="noopener noreferrer" className="font-medium">
             {title}
           </a>
           <ArrowUpRightIcon className="w-4 h-4 text-muted-foreground" />

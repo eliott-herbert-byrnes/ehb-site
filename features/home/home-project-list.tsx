@@ -1,16 +1,19 @@
+"use client";
 import { Badge } from "@/components/ui/badge";
-import { CardHome } from "../card-compact/card-home";
+import { CardHome } from "../cards/card-home";
 import { ProjectData } from "./data/data";
 import Image from "next/image";
+import { useRouter } from "next/navigation";
 
 export function HomeProjectList() {
   const projects = Object.values(ProjectData);
-
+  const router = useRouter();
   return (
     <>
       {projects.map((project) => (
         <CardHome
-          className="w-full h-full border-none hover:scale-101 transition-all duration-300 cursor-pointer overflow-hidden"
+          className="w-full h-full border-none hover:scale-98 transition-all duration-300 cursor-pointer overflow-hidden animate-fade-from-top"
+          onClick={() => router.push(project.path)}
           key={project.title}
           title={project.title}
           description={project.description}

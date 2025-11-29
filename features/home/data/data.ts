@@ -1,3 +1,5 @@
+import { navisDocsPath, symmetryPath, ticketackerPath } from "@/lib/paths";
+
 export const languages = ["TypeScript", "JavaScript", "C#", "SQL"];
 export const frontend = ["React", "Next.js", "Tailwind CSS", "Shadcn UI", "Three.js"];
 export const backend = ["Node.js", "Express", "PostgreSQL", "Prisma", "Inngest"];
@@ -12,17 +14,20 @@ export const ProjectData = {
         description: "Enterprise Process Documentation & Knowledge Management Platform",
         tags: ["Web Application", "SaaS", "AI"],
         image: "/homepage-images/homepage-image-nd.png",
+        path: navisDocsPath(),
     },
     Ticketacker: {
         title: "Ticketacker",
         description: "Modern full-stack ticketing platform",
-        tags: ["Web Application", "Full-stack", "Ticketing"],
+        tags: ["Web Application", "Full-Stack", "Ticketing"],
         image: "/homepage-images/homepage-image-tt.png",
+        path: ticketackerPath(),
     },
     Symmetry: {
         title: "Symmetry",
         description: "Interactive 3D Molecular and Crystal Structure Visualisation Platform",
         tags: ["Web Application", "AI", "Data Analysis"],
         image: "/homepage-images/homepage-image-sa.png",
+        path: symmetryPath(),
     },
 }

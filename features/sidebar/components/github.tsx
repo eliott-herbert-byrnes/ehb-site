@@ -5,7 +5,7 @@ export function Github() {
     <WebLink
       href="https://github.com/ehb"
       title="GitHub"
-      className="w-full border-none hover:scale-101 transition-all duration-300 cursor-pointer"
+      className="w-full border-none hover:scale-98 transition-all duration-300 cursor-pointer"
     />
   );
 }

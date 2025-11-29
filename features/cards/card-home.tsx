@@ -22,9 +22,9 @@ export function CardHome({ title, description, children, footer, className, onCl
       <div className="p-4 flex flex-col gap-4">
         <CardHeader>
           <CardTitle>{title}</CardTitle>
-          <CardDescription>{description}</CardDescription>
+          <CardDescription className="max-w-[650px] text-wrap">{description}</CardDescription>
         </CardHeader>
-        <CardContent>
+        <CardContent className="max-w-[650px] text-wrap">
           {children}
         </CardContent>
         <CardFooter>

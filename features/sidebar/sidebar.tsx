@@ -7,7 +7,7 @@ import { NameTag } from "./components/name-tag";
 
 export function Sidebar() {
     return (
-        <div className="flex flex-col gap-4 max-w-[350px]">
+        <div className="flex flex-col gap-4 max-w-[350px] animate-fade-from-top">
             <NameTag />
             <AboutMe />
             <Github />
