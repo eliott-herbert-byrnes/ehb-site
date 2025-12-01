@@ -3,8 +3,8 @@ import { symmetryData } from "@/features/projects/symmetry/symmetry-data";
 
 export default function Symmetry() {
   return (
-    <div className="w-full overflow-y-auto p-6">
-      <CardProject {...symmetryData} />
+    <div className="w-full overflow-y-auto">
+      <CardProject {...symmetryData} className="border-none"/>
     </div>
   );
 }

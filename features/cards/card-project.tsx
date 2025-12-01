@@ -8,7 +8,6 @@ import {
 import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
 import Image from "next/image";
-import Link from "next/link";
 import { WebLink } from "../web-link/web-link";
 
 type TechBadge = {
@@ -117,7 +116,7 @@ export function CardProject({
       </Card>
 
       {businessProblem && (
-        <Card>
+        <Card className="border-none">
           <CardHeader>
             <CardTitle className="text-2xl">🔍 Business Problem</CardTitle>
           </CardHeader>
@@ -140,7 +139,7 @@ export function CardProject({
       )}
 
       {keyFeatures && keyFeatures.length > 0 && (
-        <Card>
+        <Card className="border-none">
           <CardHeader>
             <CardTitle className="text-2xl">✨ Key Features</CardTitle>
           </CardHeader>
@@ -175,7 +174,7 @@ export function CardProject({
 
       {sections &&
         sections.map((section, index) => (
-          <Card key={index}>
+          <Card key={index} className="border-none">
             <CardHeader>
               <CardTitle className="text-2xl">{section.title}</CardTitle>
             </CardHeader>

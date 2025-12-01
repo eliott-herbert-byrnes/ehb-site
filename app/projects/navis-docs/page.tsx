@@ -4,7 +4,7 @@ import { navisDocsData } from "@/features/projects/navis-docs/navis-docs-data";
 export default function NavisDocs() {
   return (
     <div className="w-full overflow-y-auto">
-      <CardProject {...navisDocsData} />
+      <CardProject {...navisDocsData} className="border-none"/>
     </div>
   );
 }
