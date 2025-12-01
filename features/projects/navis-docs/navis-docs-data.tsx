@@ -19,6 +19,7 @@ export const navisDocsData: CardProjectProps = {
     { name: "Vercel" },
   ],
   liveDemo: "https://navisdocs.com",
+  github: "https://github.com/eliott-herbert-byrnes/navis-docs",
   overviewImage: "/homepage-images/homepage-image-nd.png",
   businessProblem: {
     challenge:

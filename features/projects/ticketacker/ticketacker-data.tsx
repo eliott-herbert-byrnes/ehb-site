@@ -18,7 +18,9 @@ export const ticketackerData: CardProjectProps = {
     { name: "Resend" },
     { name: "Tailwind CSS" },
   ],
-  overviewImage: "/ticketacker-images/ticketacker-overview.png",
+  liveDemo: "https://www.ticketacker.com/",
+  github: "https://github.com/eliott-herbert-byrnes/ticketacker",
+  overviewImage: "/homepage-images/homepage-image-tt.png",
   businessProblem: {
     challenge:
       "Small to medium-sized teams face several challenges when selecting ticketing and project management tools: cost barriers (enterprise solutions like Jira and ServiceNow are prohibitively expensive), complexity overhead (many platforms are over-engineered for simple use cases), vendor lock-in (proprietary formats make data migration difficult), privacy concerns (sensitive project data stored on third-party servers), and customisation limitations (rigid workflows that don't adapt to team needs).",

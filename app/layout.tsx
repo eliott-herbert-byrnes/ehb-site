@@ -12,6 +12,9 @@ const albertSans = Albert_Sans({
 export const metadata: Metadata = {
   title: "EHB",
   description: "Welcome to the EHB website",
+  icons: {
+    icon: "/favicon.svg",
+  },
 };
 
 export default function RootLayout({
@@ -24,10 +27,10 @@ export default function RootLayout({
       <body className={`${albertSans.variable} antialiased p-4`}>
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-4">
-            <div className="lg:col-span-2">
-              <Sidebar />
+            <div className="col-span-1 sm:col-span-1 lg:col-span-2">
+              <Sidebar /> 
             </div>
-            <div className="col-span-1 lg:col-span-10">
+            <div className="col-span-1 sm:col-span-1 lg:col-span-10">
               {children}
             </div>
           </div>

@@ -91,14 +91,11 @@ export function CardProject({
                 />
               )}
               {github && (
-                <Link
+                <WebLink
                   href={github}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-sm font-medium hover:underline"
-                >
-                  GitHub →
-                </Link>
+                  className="w-full hover:scale-98 transition-all duration-300 cursor-pointer"
+                  title="GitHub"
+                />
               )}
             </div>
           )}
@@ -106,12 +103,13 @@ export function CardProject({
 
         {overviewImage && (
           <CardContent>
-            <div className="relative w-full h-[400px] rounded-lg overflow-hidden ">
+            <div className="relative w-full rounded-lg overflow-hidden">
               <Image
                 src={overviewImage}
                 alt={`${title} overview`}
-                fill
-                className="object-contain rounded-lg shadow-lg"
+                className="object-cover rounded-lg shadow-lg mx-auto"
+                width={750}
+                height={500}
               />
             </div>
           </CardContent>
@@ -158,12 +156,13 @@ export function CardProject({
                   </p>
                 </div>
                 {feature.image && (
-                  <div className="relative w-full h-[300px] rounded-lg overflow-hidden border">
+                  <div className="relative w-full rounded-lg overflow-hidden">
                     <Image
                       src={feature.image}
                       alt={feature.title}
-                      fill
-                      className="object-cover"
+                      width={750}
+                      height={500}
+                      className="object-cover rounded-lg shadow-lg mx-auto"
                     />
                   </div>
                 )}

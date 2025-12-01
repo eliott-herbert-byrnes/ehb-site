@@ -18,7 +18,7 @@ export function AboutMeCardList() {
       </CardAboutMe>
       <CardAboutMe
         title="Fitness"
-        description={`Outside of work, my biggest passion is sports and fitness. I have recently gotten into calisthenics and finally mastered my first muscle up!`}
+        description={`Outside of work, my biggest passion is sports and fitness. I have recently become interested in calisthenics and finally achieved my first muscle up!`}
       >
         <Image
           className="w-full h-full object-cover rounded-xl"
