@@ -17,7 +17,7 @@ export const symmetryData: CardProjectProps = {
     { name: "Tailwind CSS" },
     { name: "Radix UI" },
   ],
-  liveDemo: "https://www.symmetryudn.com/",
+  liveDemo: "https://symmetryudn.com",
   github: "https://github.com/eliott-herbert-byrnes/symmetry",
   overviewImage: "/homepage-images/homepage-image-sa.png",
   businessProblem: {
@@ -171,7 +171,7 @@ export const symmetryData: CardProjectProps = {
               Visualisation
             </h4>
             <p className="text-muted-foreground">
-              Nantes Université, Physics Department | 2022
+              Nantes Université, Physics Department | 2021-2022
             </p>
           </div>
           <div className="space-y-2 text-muted-foreground">
@@ -186,14 +186,6 @@ export const symmetryData: CardProjectProps = {
                 Key Achievements:
               </h4>
               <div className="space-y-1">
-                <div>
-                  • Delivered fully functional web application within 6-month
-                  placement
-                </div>
-                <div>
-                  • Received distinction grade for technical implementation and
-                  documentation
-                </div>
                 <div>
                   • Application adopted by physics department for undergraduate
                   teaching
