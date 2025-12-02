@@ -17,7 +17,7 @@ export const symmetryData: CardProjectProps = {
     { name: "Tailwind CSS" },
     { name: "Radix UI" },
   ],
-  liveDemo: "https://symmetryudn.com",
+  liveDemo: "https://www.symmetryudn.com/",
   github: "https://github.com/eliott-herbert-byrnes/symmetry",
   overviewImage: "/homepage-images/homepage-image-sa.png",
   businessProblem: {
